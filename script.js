@@ -42,3 +42,8 @@ function moveShooter(e) {
     squares[currentShooterIndex].classList.add('shooter')
 }
 document.addEventListener('keydown', moveShooter)
+
+function moveInvaders()
+{
+    const leftEdge = alienInvaders[0] % width === 0
+}
